@@ -1,0 +1,41 @@
+<include file="Public:header" />
+<div class="leftsidebar_box">
+    <?php if($_SESSION['quanxian'] == 0 && isset($_SESSION['quanxian'])){ ?>
+    <dl>
+        <dt>管理成员<img src="/Style/images/arrow_right.png"></dt>
+        <dd><a href="{:U('User/index')}"><span>查看成员</span></a></dd>
+        <dd><a href="{:U('User/useradd')}"><span>新增成员</span></a></dd>
+    </dl>
+    <?php } ?>
+    <dl >
+        <dt>留言详细<img src="/Style/images/arrow_right.png"></dt>
+        <include file="Public:lists" />
+    </dl>
+</div>
+
+<div class="container">
+    <a class="breadcrumbs" href="/">首页</a>
+    {__CONTENT__}
+</div>
+
+<script type="text/javascript">
+    $(".leftsidebar_box dt").css({"background-color":"#FAFAFA"});
+    $(".leftsidebar_box dt img").attr("src", "/Style/images/arrow_right.png");
+    $(function(){
+        $(".leftsidebar_box dd").hide();
+        $(".leftsidebar_box dt").click(function(){
+            $(".leftsidebar_box dt").css({"background-color":"#FAFAFA"})
+            $(this).css({"background-color": "#FAFAFA"});
+            $(this).parent().find('dd').removeClass("menu_chioce");
+            $(".leftsidebar_box dt img").attr("src","/Style/images/arrow_right.png");
+            $(this).parent().find('img').attr("src","/Style/images/arrow_top.png");
+            $(".menu_chioce").slideUp();
+            $(this).parent().find('dd').slideToggle();
+            $(this).parent().find('dd').addClass("menu_chioce");
+        });
+    })
+    //erp crm 购物流程
+</script>
+
+</body>
+</html>

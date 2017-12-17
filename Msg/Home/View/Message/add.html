@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{:U('add')}" method="post">
+    <input type="text" name="user_daihao" value="<?php echo $_GET['dh'] ?>">
+    <input type="text" name="project_id" value="<?php echo $_GET['pd'] ?>">
+    姓名：<input type="text" name="kh_name" /><br>
+    手机：<input type="text" name="phone" /><br>
+    留言：<textarea name="info" id="" cols="30" rows="10"></textarea> <br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

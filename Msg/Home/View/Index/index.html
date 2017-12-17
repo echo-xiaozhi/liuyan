@@ -1,0 +1,81 @@
+<layout name="index" />
+<layout name="Public:header" />
+<div class="form-group">
+    <ul style="text-align: center">
+        <li>版本信息：{$banben}</li>
+        <li>开发人员：{$kaifa}</li>
+        <li>资助支付宝:{$zhifubao}</li>
+        <li>就这么些吧！哈哈哈！</li>
+    </ul>
+    <div style="color: red;">所有项目总留言数：{$count}</div>
+    <div>
+        <table class="table" >
+            <thead>
+            <tr class="th">
+                <th>项目名</th>
+                <th>未查看新增留言条数</th>
+                <th>本日新增留言条数</th>
+                <th>本周新增留言条数</th>
+                <th>本月新增留言条数</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="menu" id="vo">
+                <tr>
+                    <td>{$vo.content}</td>
+                    <td>
+                        <a href="{:U('Message/index?id='.$vo[id].'&user_daihao='.$daihao)}" class="btn btn-small btn-delete">
+                            <?php
+                                $status = M('status');
+                                if($quanxian == 0){
+                                    $count = $status->where('project_id='.$vo[id].' and status=0')->count();
+                                }else{
+                                    $count = $status->where('project_id='.$vo[id].' and user_daihao='.$daihao.' and yg_status=0')->count();
+                                }
+                            echo $count;
+                            ?>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-small btn-update">
+                            <?php
+                                $model = M('message');
+                                if($quanxian == 0){
+                                    $day = $model->where('project_id='.$vo[id].' and '.$beginToday.' < create_time and create_time < '.$endToday)->count();
+                                }else{
+                                    $day = $model->where('project_id='.$vo[id].' and '.$beginToday.' < create_time and create_time < '.$endToday.' and user_daihao='.$daihao)->count();
+                                }
+                                echo $day;
+                            ?>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-small btn-update">
+                            <?php
+                                if($quanxian == 0){
+                                    $week = $model->where('project_id='.$vo[id].' and '.$beginTheweek.' < create_time and create_time < '.$endTheweek)->count();
+                                }else{
+                                    $week = $model->where('project_id='.$vo[id].' and '.$beginTheweek.' < create_time and create_time < '.$endTheweek.' and user_daihao='.$daihao)->count();
+                                }
+                                echo $week;
+                            ?>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-small btn-update">
+                            <?php
+                                if($quanxian == 0){
+                                    $month = $model->where('project_id='.$vo[id].' and '.$beginThismonth.' < create_time and create_time < '.$endThismonth)->count();
+                                }else{
+                                    $month = $model->where('project_id='.$vo[id].' and '.$beginThismonth.' < create_time and create_time < '.$endThismonth.' and user_daihao='.$daihao)->count();
+                                }
+                                echo $month;
+                            ?>
+                        </a>
+                    </td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+    </div>
+</div>

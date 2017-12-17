@@ -1,0 +1,325 @@
+[ 2017-08-13T15:11:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003508s ]
+
+[ 2017-08-13T15:11:54+08:00 ] 127.0.0.1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010659s ]
+
+[ 2017-08-13T15:11:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-08-13T15:12:02+08:00 ] 127.0.0.1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'liucuiyan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: UPDATE `user` SET `last_login_time`='1502608322' WHERE `username` = 'liucuiyan' AND `id` = 1 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-08-13T15:12:03+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `project`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 35 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+SQL: SHOW COLUMNS FROM `status` [ RunTime:0.0338s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=1 and status=0 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=1 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=1 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=1 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=2 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=2 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=2 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=2 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=3 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=3 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=3 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=3 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=4 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=4 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=4 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=4 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=5 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=5 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=5 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=5 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=6 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=6 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=6 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=6 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=7 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=7 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=7 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=7 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=8 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=8 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=8 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=8 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=9 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=9 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=9 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=9 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=10 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=10 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=10 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=10 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=11 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=11 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=11 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=11 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=12 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=12 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=12 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=12 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=13 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=13 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=13 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=13 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=14 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=14 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=14 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=14 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=15 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=15 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=15 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=15 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=16 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=16 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=16 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=16 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=17 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=17 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=17 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=17 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=18 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=18 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=18 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=18 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=19 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=19 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=19 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=19 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=20 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=20 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=20 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=20 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=21 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=21 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=21 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=21 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=22 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=22 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=22 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=22 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=23 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=23 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=23 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=23 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 68 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 70 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `status` WHERE ( project_id=24 and status=0 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 76 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=24 and 1502553600 < create_time and create_time < 1502639999 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 82 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=24 and 1501603200 < create_time and create_time < 1502121600 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\liuyan\Msg\Runtime\Cache\Home\1f5df49420ee22b930f89d081f85542a.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( project_id=24 and 1501516800 < create_time and create_time < 1504195199 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+

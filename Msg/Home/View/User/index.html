@@ -1,0 +1,74 @@
+<layout name="index" />
+    <div class="select-main">
+    <form method="post" action="{:U('search')}">
+        <div class="form-select">
+            <label class="form-select-title" >姓名：</label>
+            <input type="text" name="name" class="form-control" placeholder="请输入名称" >
+        </div>
+        <div class="form-select">
+            <label class="form-select-title">代号：</label>
+            <input type="text" name="daihao" class="form-control"  placeholder="请输入名称">
+        </div>
+        <div class="form-select">
+            <button class="btn btn-large btn-update" type="submit" >提交</button>
+        </div>
+        <div class="form-select">
+            <button class="btn btn-large btn-default" type="reset">重置</button>
+        </div>
+    </form>
+    </div>
+    <div class="table-main">
+        <table class="table" >
+            <thead>
+            <tr class="th">
+                <th>ID</th>
+                <th>帐号</th>
+                <th>代号</th>
+                <th>姓名</th>
+                <th>所属上级id</th>
+                <th>权限</th>
+                <th>留言总数量</th>
+                <th>最后登录时间</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="list" id="vo">
+                <tr>
+                    <td>{$vo.id}</td>
+                    <td>{$vo.username}</td>
+                    <td>{$vo.daihao}</td>
+                    <td>{$vo.name}</td>
+                    <td>{$vo.pid}</td>
+                    <td><?php
+                            switch($vo['quanxian']){
+                                case 0 : echo '主管'; break;
+                                case 1 : echo '组长'; break;
+                                default : echo '组员';
+                            }
+                        ?>
+                    </td>
+                    <td>
+                        <?php
+                            $model = M('user');
+                            $data['a.daihao'] = $vo['daihao'];
+                            $shu = $model->alias('a')->join('message b ON a.daihao= b.user_daihao')->where($data)->count();
+                            echo $shu;
+                        ?>
+                    </td>
+                    <td>{$vo.last_login_time|date='Y-m-d H:m:s',###}</td>
+                    <td>
+                        <a href="{:U('edit?id='.$vo[id])}" class="btn btn-small btn-update">修改详细</a>
+                        <a href="{:U('editpsd?id='.$vo[id])}" class="btn btn-small btn-edit">修改密码</a>
+                        <a href="{:U('del?id='.$vo[id])}" class="btn btn-small btn-delete" onclick="return confirm('确定将此记录删除?')">删除</a>
+                    </td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+    </div>
+    <div class="paging" >
+        <div class="page">
+            {$page}
+        </div>
+    </div>

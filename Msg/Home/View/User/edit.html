@@ -1,0 +1,31 @@
+<layout name="index" />
+<!--表单-->
+<form action="{:U('edit?id='.$info[id])}" method="post">
+    <div class="form-group">
+        <label class="form-title">帐号：</label>
+        <div class="checkbox-inline">{$info.username}</div>
+    </div>
+    <div class="form-group">
+        <label class="form-title">姓名：</label>
+        <input class="form-control" name="name" type="text" value="{$info.name}"/>
+    </div>
+    <div class="form-group">
+        <label class="form-title">代号：</label>
+        <input class="form-control" name="daihao" type="text" value="{$info.daihao}"/>
+    </div>
+    <div class="form-group">
+        <label class="form-title">权限：</label>
+        <select  class="form-control" name="quanxian">
+            <option value="1" <if condition="$info[quanxian] eq 1"> selected="selected" </if> >组长</option>
+            <option value="2" <if condition="$info[quanxian] eq 2"> selected="selected" </if> >组员</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label class="form-title">所属上级id：</label>
+        <input class="form-control" name="pid" type="text" value="{$info.pid}"/>
+    </div>
+    <div class="form-group form-submit">
+        <button class="btn-groups btn-submit" type="submit">立即提交</button>
+        <button class="btn-groups btn-reset" type="reset">重置</button>
+    </div>
+</form>
